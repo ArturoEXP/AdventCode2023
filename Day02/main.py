@@ -65,5 +65,5 @@ def part2(f):
 directorio_actual = os.path.dirname(os.path.realpath(__file__))
 ruta_relativa = os.path.join(directorio_actual, 'data.txt')
 with open(ruta_relativa, 'r') as f:
-    #part1(f)
+    part1(f)
     part2(f)
